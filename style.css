@@ -1,0 +1,119 @@
+
+body{
+  font-family:Arial, Helvetica, sans-serif ;
+  /*not written by me vvv , just for animated background*/
+ animation-name: backgroundColorPalette;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+  /*not written by me ^^^ */
+}
+/*not written by me vvv , just for animated background*/
+@keyframes backgroundColorPalette {
+	0% {
+		background: #ccd0c8;
+	}
+	25% {
+		background:#f7ebde;
+	}
+	50% {
+		background: #d9dcd6;
+	}
+	75% {
+		background: #e5e0dc;
+	}
+	100% {
+		background: #ebece9;
+	}
+}
+/*not written by me ^^^ */
+header {
+  font-family: serif,sans-serif;
+  height: 25px;
+  background-image:url(images/backgrounds/strings.png);
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top:1%;
+  line-height: .5;
+  font-family: cursive
+}
+
+header h2{
+  font-family: serif,sans-serif;
+	color: #5E4608;
+	font-size: 30px;
+	text-align: center;
+}
+
+footer{
+  background-color: #000000;
+}
+
+section{
+  
+  padding-left:15%;
+  padding-right:15%;
+ 
+}
+hr{
+height: 1px;
+        background-color: #af820e;
+        border: none;
+}
+/* type */
+
+h2, h3 { 
+  font-family: serif, sans-serif;
+	color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+h1 { font-size: 70px; }
+h2 { font-size: 45px; }
+h3 { font-size: 30px; }
+
+p, li{
+  font-family: serif,sans-serif;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 500;
+  margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    font-size: 20px;
+}
+/*link colors*/
+a{font-weight: 700;}
+a:link{color:blue}
+a:visited{color:#944bbb}
+a:hover{color:darkblue}
+a:active{color:red}
+
+/*all footer adjustments*/
+footer p {
+  color: #ffffff;	
+	text-align: center;
+}
+
+/* elements */
+iframe{  	
+  border-radius: 30px;
+   margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+  border: 1px solid #110b01;
+ }
+/*modifiers*/
+.border-top{
+  padding-top: 50px;
+  border-top: 3px solid #af820e;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 40px;
+}
